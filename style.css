@@ -29,7 +29,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task, .task-name {
+.task,
+.task-name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -37,14 +38,17 @@
 .task-row-wrapper {
   display: flex;
 }
-#incompleted-tasks, #completed-tasks {
+#incompleted-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 .element {
   list-style: none;
 }
-.task-name, .edit, .delete{
+.task-name,
+.edit,
+.delete {
   outline: none;
 }
 .button {
