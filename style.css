@@ -131,7 +131,7 @@
 }
 
 /* Completed */
-.task-name {
+.completed .task-name {
   text-decoration: line-through;
   color: #888;
 }
