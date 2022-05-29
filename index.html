@@ -6,14 +6,14 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
-  <div class="header"><img class="header__image" src="./eisenhower-matrix.jpg"><a class="more-info" 
-      href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-  <div class="todo-app">
-    <p id="add-element"><label class="list-name" for="new-task">Add Item</label>
+  <header class="header"><img class="header__image" src="./eisenhower-matrix.jpg"><a class="more-info" 
+      href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></header>
+  <section class="todo-app">
+    <div class="add-element"><label class="list-name" for="new-task">Add Item</label>
       <div class="task-row-wrapper"><input id="new-task" class="task" type="text"><button class="button add">Add</button></div>
-    </p>
+    </div>
     <h3 class="list-name">Todo</h3>
-    <ul id="incompleted-tasks">
+    <ul id="incompleted-tasks" class="incompleted-tasks">
       <li class="element"><input class="checkbox" type="checkbox"><label class="task-name">Pay Bills</label><input type="text" class="task"><button 
           class="button edit">Edit</button><button class="button delete"><img class="delete-icon" src="./remove.svg"></button></li>
       <li class="element edit-mode"><input class="checkbox" type="checkbox"><label class="task-name">Go Shopping</label><input type="text" 
@@ -21,11 +21,11 @@
               class="delete-icon" src="./remove.svg"></button></li>
     </ul>
     <h3 class="list-name">Completed</h3>
-    <ul id="completed-tasks">
+    <ul id="completed-tasks" class="completed-tasks">
       <li class="element completed"><input class="checkbox" type="checkbox" checked><label class="task-name">See the Doctor</label><input type="text" 
           class="task"><button class="button edit">Edit</button><button class="button delete"><img class="delete-icon" src="./remove.svg"></button></li>
     </ul>
-  </div>
+  </section>
   <script src="app.js"></script>
 </body>
 </html>

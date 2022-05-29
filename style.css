@@ -38,8 +38,8 @@
 .task-row-wrapper {
   display: flex;
 }
-#incompleted-tasks,
-#completed-tasks {
+.incompleted-tasks,
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
@@ -73,7 +73,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.task[type="text"] {
+.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -85,14 +85,14 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task[type="text"]:focus {
+.task:focus {
   color: #333;
 }
 
 /* New Task */
-.list-name[for="new-task"] {
+.add-element .list-name {
   display: block;
-  margin: 0 0 20px;
+  margin: 16px 0 20px;
 }
 #new-task {
   width: 318px;
